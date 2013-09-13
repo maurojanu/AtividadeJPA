@@ -3,6 +3,23 @@
   <persistence-unit name="AtividadeJPAPU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>br.edu.ifnmg.tads.AtividadeJPA.DoMainModel.Pessoa</class>
+    <class>br.edu.ifnmg.tads.AtividadeJPA.DoMainModel.Curso</class>
+    <class>br.edu.ifnmg.tads.AtividadeJPA.DoMainModel.Disciplina</class>
+    <class>br.edu.ifnmg.tads.AtividadeJPA.DoMainModel.Email</class>
+    <class>br.edu.ifnmg.tads.AtividadeJPA.DoMainModel.EmprestimoReserva</class>
+    <class>br.edu.ifnmg.tads.AtividadeJPA.DoMainModel.EmprestimoReservaRecurso</class>
+    <class>br.edu.ifnmg.tads.AtividadeJPA.DoMainModel.Endereco</class>
+    <class>br.edu.ifnmg.tads.AtividadeJPA.DoMainModel.Funcionario</class>
+    <class>br.edu.ifnmg.tads.AtividadeJPA.DoMainModel.MedidaTempo</class>
+    <class>br.edu.ifnmg.tads.AtividadeJPA.DoMainModel.Operacao</class>
+    <class>br.edu.ifnmg.tads.AtividadeJPA.DoMainModel.Professor</class>
+    <class>br.edu.ifnmg.tads.AtividadeJPA.DoMainModel.ProfessorDisciplinas</class>
+    <class>br.edu.ifnmg.tads.AtividadeJPA.DoMainModel.Recurso</class>
+    <class>br.edu.ifnmg.tads.AtividadeJPA.DoMainModel.Secao</class>
+    <class>br.edu.ifnmg.tads.AtividadeJPA.DoMainModel.StatusRecurso</class>
+    <class>br.edu.ifnmg.tads.AtividadeJPA.DoMainModel.Telefone</class>
+    <class>br.edu.ifnmg.tads.AtividadeJPA.DoMainModel.TipoRecurso</class>
+    <class>br.edu.ifnmg.tads.AtividadeJPA.DoMainModel.Usuario</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/TesteJPAA"/>
       <property name="javax.persistence.jdbc.password" value="123456"/>
